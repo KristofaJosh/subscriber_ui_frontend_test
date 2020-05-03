@@ -3,12 +3,11 @@ import './App.css';
 import styled from "styled-components";
 import SubscribePage from "./composite/page/subscribepage";
 
+
 function App() {
     return (
         <AppStyle>
-            
             <SubscribePage/>
-        
         </AppStyle>
     );
 }
@@ -21,5 +20,4 @@ const AppStyle = styled.div`
     align-items: center;
 `;
 
-//
 export default App;

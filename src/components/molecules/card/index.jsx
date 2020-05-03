@@ -2,13 +2,8 @@ import React from 'react';
 import Button from "../../atoms/button";
 import styled from "styled-components";
 import Text from "../../atoms/text";
-import axios from 'axios'
 
-const Card = ({type, plan, message, price}) => {
-    
-    const handleClick = (e) => {
-        console.log(e.target)
-    };
+const Card = ({type, plan, message, price, onClick}) => {
     
     
     return (
@@ -28,7 +23,7 @@ const Card = ({type, plan, message, price}) => {
                     <span>Get At</span>
                     <span>{price}</span>
                 </div>
-                <Button text={'BUY'} onClick={handleClick}/>
+                <Button text={'buy'} onClick={onClick}/>
             </InnerCardStyle>
             <div className="dots">
                 <span className="dot"/>

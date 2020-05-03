@@ -1,30 +1,23 @@
-import React, {useEffect, useState} from 'react';
+import React, { useState } from 'react'
 import axios from 'axios'
 
-const Request = ({url}) => {
-    const [data, setData] = useState(null);
-    useEffect(() => {
-        let receivedData = true;
-        
-        const loadData = async () => {
-            const response = await axios.get(url);
-            if (receivedData) {
-                setData(response.data)
-            }
-        };
-        loadData();
-        
-        return () => {
-            receivedData = false;
-        }
-    }, [url]);
-    
-    if (!data) {
-        return <span>Loading data</span>
-    }
+export default function Request({ url }) {
+    const [state, setState] = useState('');
     
     
-    return <span>{data.greeting}</span>
-};
-
-export default Request;
+    const fetchStatus = async () => {
+        const response = await axios.get(url);
+        const { status } =  response.data;
+        setState(status)
+    };
+    
+    
+    return (
+        <div>
+            <button onClick={fetchStatus} >
+                btn
+            </button>
+            {state ? <h1>{state}</h1> : null}
+        </div>
+    )
+}

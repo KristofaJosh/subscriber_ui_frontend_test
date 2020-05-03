@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c806b808-4f65-4a88-853e-0cc621303e00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/subscribed/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/composite/page/subscribepage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/page/alertPage/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__mocks__/request.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/molecules/card/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/card/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/request.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/request.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/subscribed/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/subscribed/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composite/page/subscribepage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/composite/page/subscribepage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/feature/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/feature/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/request.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/subscrib.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +38,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
@@ -41,7 +48,20 @@
       <recent name="C:\Users\Chris Josh\WebstormProjects\pricing_plans_mock_test\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Jest.loads and displays subscribe">
+    <configuration name="loads and displays subscribe" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__test__/request.test.js" />
+      <test-names>
+        <test-name value="loads and displays subscribe" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -55,6 +75,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.loads and displays subscribe" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -66,7 +91,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588489880409</updated>
-      <workItem from="1588489882870" duration="6172000" />
+      <workItem from="1588489882870" duration="11220000" />
+      <workItem from="1588502232242" duration="1691000" />
     </task>
     <servers />
   </component>
@@ -74,9 +100,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="936" height="258" key="GridCell.Tab.0.bottom" timestamp="1588501117286">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1135" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588500140435" />
+    <state width="936" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1366.0.1366.768@0.0.1920.1080" timestamp="1588501117286" />
+    <state width="936" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588500623160" />
+    <state width="936" height="258" key="GridCell.Tab.0.center" timestamp="1588501117286">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1135" height="258" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588500140434" />
+    <state width="936" height="258" key="GridCell.Tab.0.center/0.0.1920.1080/-1366.0.1366.768@0.0.1920.1080" timestamp="1588501117286" />
+    <state width="936" height="258" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588500623160" />
+    <state width="936" height="258" key="GridCell.Tab.0.left" timestamp="1588501117286">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1135" height="258" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588500140433" />
+    <state width="936" height="258" key="GridCell.Tab.0.left/0.0.1920.1080/-1366.0.1366.768@0.0.1920.1080" timestamp="1588501117286" />
+    <state width="936" height="258" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588500623159" />
+    <state width="936" height="258" key="GridCell.Tab.0.right" timestamp="1588501117286">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1135" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588500140435" />
+    <state width="936" height="258" key="GridCell.Tab.0.right/0.0.1920.1080/-1366.0.1366.768@0.0.1920.1080" timestamp="1588501117286" />
+    <state width="936" height="258" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588500623160" />
     <state x="72" y="252" key="Vcs.Push.Dialog.v2" timestamp="1588494388519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="72" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588494388519" />
+    <state x="235" y="244" key="run.anything.popup" timestamp="1588499829693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="235" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588499829693" />
   </component>
 </project>
