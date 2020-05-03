@@ -4,7 +4,7 @@ import axios from 'axios';
 
 jest.mock('axios');
 
-describe('ToDoList component', () => {
+describe('ToDoList composite', () => {
     describe('when rendered', () => {
         it('should fetch a list of tasks', () => {
             const getSpy = jest.spyOn(axios, 'get');

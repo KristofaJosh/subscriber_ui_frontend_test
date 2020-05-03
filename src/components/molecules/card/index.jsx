@@ -2,13 +2,13 @@ import React from 'react';
 import Button from "../../atoms/button";
 import styled from "styled-components";
 import Text from "../../atoms/text";
+import axios from 'axios'
 
 const Card = ({type, plan, message, price}) => {
     
     const handleClick = (e) => {
         console.log(e.target)
     };
-    
     
     
     return (

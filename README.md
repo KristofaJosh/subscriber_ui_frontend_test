@@ -66,3 +66,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+ - [mock](https://www.behance.net/gallery/71478535/Plan-and-Pricing-UI?tracking_source=search_projects_recommended%7Cpricing%20plans)
