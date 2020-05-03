@@ -1,26 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import styled from "styled-components";
+import Card from "./components/molecules/card";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <AppStyle>
+            <Card type={'bronze'}
+                  plan={'Bronze'}
+                  message={'lorem'}
+                  price={'$20'}/>
+            <Card type={'gold'}
+                  plan={'Bronze'}
+                  message={'lorem'}
+                  price={'$20'}/>
+            <Card type={'silver'}
+                  plan={'Bronze'}
+                  message={'lorem'}
+                  price={'$20'}/>
+        </AppStyle>
+    );
 }
 
+const AppStyle = styled.div`
+    background-color: #303030;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+`;
+
+//
 export default App;
