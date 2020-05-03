@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c806b808-4f65-4a88-853e-0cc621303e00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__mocks__/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/button/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/text/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/card/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/feature/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/request.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/subscrib.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/button/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/button/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/text/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/text/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/card/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/card/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +66,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588489880409</updated>
-      <workItem from="1588489882870" duration="4256000" />
+      <workItem from="1588489882870" duration="5270000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="72" y="252" key="Vcs.Push.Dialog.v2" timestamp="1588494388519">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="72" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588494388519" />
   </component>
 </project>

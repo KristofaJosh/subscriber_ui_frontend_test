@@ -8,15 +8,18 @@ function App() {
         <AppStyle>
             <Card type={'bronze'}
                   plan={'Bronze'}
-                  message={'lorem'}
+                  message={'Lorem ipsum dolor adipisicing elit.\n' +
+                  '                    A, asperiores'}
                   price={'$20'}/>
             <Card type={'gold'}
-                  plan={'Bronze'}
-                  message={'lorem'}
+                  plan={'Gold'}
+                  message={'Lorem ipsum dolor adipisicing elit.\n' +
+                  '                    A, asperiores'}
                   price={'$20'}/>
             <Card type={'silver'}
-                  plan={'Bronze'}
-                  message={'lorem'}
+                  plan={'silver'}
+                  message={'Lorem ipsum dolor adipisicing elit.\n' +
+                  '                    A, asperiores'}
                   price={'$20'}/>
         </AppStyle>
     );

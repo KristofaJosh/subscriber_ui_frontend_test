@@ -4,19 +4,31 @@ import styled from "styled-components";
 import Text from "../../atoms/text";
 
 const Card = ({type, plan, message, price}) => {
+    
+    const handleClick = (e) => {
+        console.log(e.target)
+    };
+    
+    
+    
     return (
         <CardStyle>
-            <Text>skip the queue</Text>
-            <Text>Lorem ipsum dolor adipisicing elit.
-                A, asperiores aspernatur autem</Text>
+            <div>
+                <Text style={{margin: '0', textTransform: 'uppercase'}}>skip the queue</Text>
+                <Text style={{fontSize: '10px', color: 'grey'}}>Lorem ipsum dolor adipisicing elit.
+                    A, asperiores aspernatur autem</Text>
+            </div>
             
             <InnerCardStyle type={type}>
-                <Text>{plan}</Text>
-                <Text>{message}</Text>
-                <div className="promo">
-                    {price}
+                <div className={'type-content'}>
+                    <Text style={{fontSize: '30px', textTransform: 'uppercase'}}>{plan}</Text>
+                    <Text style={{fontSize: '10px'}}>{message}</Text>
                 </div>
-                <Button text={'Subscribe'} onClick={onclick}/>
+                <div className="promo">
+                    <span>Get At</span>
+                    <span>{price}</span>
+                </div>
+                <Button text={'BUY'} onClick={handleClick}/>
             </InnerCardStyle>
             <div className="dots">
                 <span className="dot"/>
@@ -87,6 +99,24 @@ const InnerCardStyle = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    
+    .promo {
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 50%;
+        height: 20%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    
+    .type-content {
+        p {
+            margin: 0;
+        }
+  
+    }
     ${cardType};
 `;
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from "styled-components";
 
-const Text = ({children}) => {
+const Text = ({children, style}) => {
     return (
-        <TextStyle>
+        <TextStyle style={style}>
             {children}
         </TextStyle>
     )
